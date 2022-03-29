@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="ChessElo" company="ООО &quot;магистры 407м-ад&quot;" webLink="http://82.179.31.34/~voronkovpe" view-date="2022-03-21" view-index="0" gantt-divider-location="351" resource-divider-location="442" version="3.2.3230" locale="ru_RU">
+    <description>
+        <![CDATA[Наш веб-сервис позволяет играть в шахматы с реальными людьми онлайн. А также позволяет синхронизировать прогресс между вашими устройствами. Главная особенность нашего веб-сервиса – отображение вашего игрового рейтинга в режиме реального времени, который определяется при помощи новейших технологий – машинного обучения. Данная система рейтинга обучается на основе партий игроков, сыгранных на нашем сайте. ]]>
+    </description>
+    <view zooming-state="default:6" id="gantt-chart">
+        <field id="tpd3" name="Название" width="223" order="0"/>
+        <field id="tpd4" name="Дата начала" width="52" order="1"/>
+        <field id="tpd5" name="Дата окончания" width="75" order="2"/>
+        <option id="filter.completedTasks" value="false"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Имя" width="281" order="0"/>
+        <field id="1" name="Стандартная роль" width="157" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="1" name="Сбор требований" color="#8cb6ce" meeting="false" start="2022-03-23" duration="7" complete="0" thirdDate="2022-03-23" thirdDate-constraint="0" expand="true"/>
+        <task id="9" name="Проектирование" color="#8cb6ce" meeting="false" start="2022-04-01" duration="25" complete="0" thirdDate="2022-03-23" thirdDate-constraint="0" expand="true"/>
+        <task id="10" name="Кодирование" color="#8cb6ce" meeting="false" start="2022-04-11" duration="30" complete="0" thirdDate="2022-03-23" thirdDate-constraint="0" expand="true"/>
+        <task id="4" name="Планирование" color="#8cb6ce" meeting="false" start="2022-03-23" duration="7" complete="0" thirdDate="2022-03-23" thirdDate-constraint="0" expand="true">
+            <task id="5" name="Оценка рисков" color="#8cb6ce" meeting="false" start="2022-03-29" duration="3" complete="0" thirdDate="2022-03-23" thirdDate-constraint="0" expand="true"/>
+            <task id="3" name="Составление плана проекта" color="#8cb6ce" meeting="false" start="2022-03-23" duration="5" complete="0" thirdDate="2022-03-23" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="11" name="Тестирование" meeting="false" start="2022-03-23" duration="20" complete="0" expand="true">
+            <task id="2" name="Подготовка материалов для тестирования" color="#8cb6ce" meeting="false" start="2022-03-23" duration="20" complete="0" thirdDate="2022-03-23" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="6" name="Анализ требований" color="#8cb6ce" meeting="false" start="2022-03-28" duration="8" complete="0" thirdDate="2022-03-23" thirdDate-constraint="0" expand="true"/>
+        <task id="7" name="Составление комерческого предложения" color="#8cb6ce" meeting="false" start="2022-03-23" duration="1" complete="0" thirdDate="2022-03-23" thirdDate-constraint="0" expand="true"/>
+        <task id="8" name="Составление реестра заинтересованых лиц" color="#8cb6ce" meeting="false" start="2022-03-23" duration="1" complete="0" thirdDate="2022-03-23" thirdDate-constraint="0" expand="true"/>
+    </tasks>
+    <resources>
+        <resource id="0" name="Булгаков Лев" function="Default:1" contacts="levbul1998@gmail.com" phone="89132720431">
+            <rate name="standard" value="10000"/>
+        </resource>
+        <resource id="1" name="Воронков Павел" function="1" contacts="djarvis2014@mail.ru" phone="89132536145">
+            <rate name="standard" value="5000"/>
+        </resource>
+        <resource id="2" name="Поломошнов Андрей" function="2" contacts="solust@yandex.ru" phone="79130968016">
+            <rate name="standard" value="2500"/>
+        </resource>
+        <resource id="3" name="Сливный Дмитрий" function="4" contacts="sliva22rus@gmail.com" phone="">
+            <rate name="standard" value="1700"/>
+        </resource>
+        <resource id="4" name="Фелькер Никита" function="2" contacts="qcord@ya.ru" phone=""/>
+        <resource id="5" name="Шац Нелли" function="3" contacts="shatsnelly@yandex.ru" phone="">
+            <rate name="standard" value="1300"/>
+        </resource>
+    </resources>
+    <allocations>
+        <allocation task-id="3" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="7" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="8" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="4" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="1" resource-id="1" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="9" resource-id="2" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="2" resource-id="3" function="4" responsible="true" load="100.0"/>
+        <allocation task-id="10" resource-id="4" function="2" responsible="true" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles>
+        <role id="1" name="Системный администратор"/>
+        <role id="2" name="Разработчик"/>
+        <role id="3" name="Техническмй писатель"/>
+        <role id="4" name="Тестировщик"/>
+    </roles>
+</project>
